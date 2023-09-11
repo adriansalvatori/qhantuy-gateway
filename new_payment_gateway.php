@@ -186,7 +186,7 @@ function init_qhantuy_gateway_class() {
             $order_id = $order_data->post_id;
             $order = wc_get_order($order_id);
             $status = $order->get_status();
-            if($transaction_id==''){
+            if(!$transaction_id){
                 echo "Please provide transaction id";exit;
             }elseif($status=='error'&&$message){
                 echo $message;exit;
