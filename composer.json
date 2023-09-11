@@ -1,0 +1,16 @@
+{
+    "name": "adriansalvatori/qhantuy-gateway",
+    "description": "Constantly (manually) updated copy of Qhantuy Woocommerce Gateway",
+    "keywords": ["wordpress", "plugin"],
+    "homepage": "https://github.com/adriansalvatori/qhantuy-gateway",
+    "authors": [
+      {
+        "name": "WP Engine",
+        "homepage": "https://https://qhantuy.com"
+      }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=7.4"
+    }
+  }
